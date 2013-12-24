@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GADBannerView.h"
 
 @interface AdMobLibrary : NSObject
+
+@property (nonatomic, strong) NSString *AdMob_id;
+
+-(UIView*) getBannerView:(GADAdSize) size;
 
 @end
