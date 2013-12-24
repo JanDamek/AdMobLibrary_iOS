@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CA9CDE1869A0FD00055DE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA9CDD1869A0FD00055DE8 /* Foundation.framework */; };
+		F5CA9CE31869A0FD00055DE8 /* AdMobLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5CA9CE21869A0FD00055DE8 /* AdMobLibrary.h */; };
+		F5CA9CE51869A0FD00055DE8 /* AdMobLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA9CE41869A0FD00055DE8 /* AdMobLibrary.m */; };
+		F5CA9CEC1869A0FD00055DE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA9CEB1869A0FD00055DE8 /* XCTest.framework */; };
+		F5CA9CED1869A0FD00055DE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA9CDD1869A0FD00055DE8 /* Foundation.framework */; };
+		F5CA9CEF1869A0FD00055DE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA9CEE1869A0FD00055DE8 /* UIKit.framework */; };
+		F5CA9CF21869A0FD00055DE8 /* libAdMobLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA9CDA1869A0FD00055DE8 /* libAdMobLibrary.a */; };
+		F5CA9CF81869A0FD00055DE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CA9CF61869A0FD00055DE8 /* InfoPlist.strings */; };
+		F5CA9CFA1869A0FD00055DE8 /* AdMobLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA9CF91869A0FD00055DE8 /* AdMobLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CA9CF01869A0FD00055DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CA9CD21869A0FD00055DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CA9CD91869A0FD00055DE8;
+			remoteInfo = AdMobLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5CA9CD81869A0FD00055DE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F5CA9CE31869A0FD00055DE8 /* AdMobLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5CA9CDA1869A0FD00055DE8 /* libAdMobLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAdMobLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA9CDD1869A0FD00055DE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5CA9CE11869A0FD00055DE8 /* AdMobLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdMobLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		F5CA9CE21869A0FD00055DE8 /* AdMobLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMobLibrary.h; sourceTree = "<group>"; };
+		F5CA9CE41869A0FD00055DE8 /* AdMobLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobLibrary.m; sourceTree = "<group>"; };
+		F5CA9CEA1869A0FD00055DE8 /* AdMobLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMobLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA9CEB1869A0FD00055DE8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5CA9CEE1869A0FD00055DE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F5CA9CF51869A0FD00055DE8 /* AdMobLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdMobLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		F5CA9CF71869A0FD00055DE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5CA9CF91869A0FD00055DE8 /* AdMobLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CA9CD71869A0FD00055DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA9CDE1869A0FD00055DE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CA9CE71869A0FD00055DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA9CEC1869A0FD00055DE8 /* XCTest.framework in Frameworks */,
+				F5CA9CEF1869A0FD00055DE8 /* UIKit.framework in Frameworks */,
+				F5CA9CED1869A0FD00055DE8 /* Foundation.framework in Frameworks */,
+				F5CA9CF21869A0FD00055DE8 /* libAdMobLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CA9CD11869A0FD00055DE8 = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CDF1869A0FD00055DE8 /* AdMobLibrary */,
+				F5CA9CF31869A0FD00055DE8 /* AdMobLibraryTests */,
+				F5CA9CDC1869A0FD00055DE8 /* Frameworks */,
+				F5CA9CDB1869A0FD00055DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CA9CDB1869A0FD00055DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CDA1869A0FD00055DE8 /* libAdMobLibrary.a */,
+				F5CA9CEA1869A0FD00055DE8 /* AdMobLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CA9CDC1869A0FD00055DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CDD1869A0FD00055DE8 /* Foundation.framework */,
+				F5CA9CEB1869A0FD00055DE8 /* XCTest.framework */,
+				F5CA9CEE1869A0FD00055DE8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CA9CDF1869A0FD00055DE8 /* AdMobLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CE21869A0FD00055DE8 /* AdMobLibrary.h */,
+				F5CA9CE41869A0FD00055DE8 /* AdMobLibrary.m */,
+				F5CA9CE01869A0FD00055DE8 /* Supporting Files */,
+			);
+			path = AdMobLibrary;
+			sourceTree = "<group>";
+		};
+		F5CA9CE01869A0FD00055DE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CE11869A0FD00055DE8 /* AdMobLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CA9CF31869A0FD00055DE8 /* AdMobLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CF91869A0FD00055DE8 /* AdMobLibraryTests.m */,
+				F5CA9CF41869A0FD00055DE8 /* Supporting Files */,
+			);
+			path = AdMobLibraryTests;
+			sourceTree = "<group>";
+		};
+		F5CA9CF41869A0FD00055DE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA9CF51869A0FD00055DE8 /* AdMobLibraryTests-Info.plist */,
+				F5CA9CF61869A0FD00055DE8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CA9CD91869A0FD00055DE8 /* AdMobLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CA9CFD1869A0FD00055DE8 /* Build configuration list for PBXNativeTarget "AdMobLibrary" */;
+			buildPhases = (
+				F5CA9CD61869A0FD00055DE8 /* Sources */,
+				F5CA9CD71869A0FD00055DE8 /* Frameworks */,
+				F5CA9CD81869A0FD00055DE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMobLibrary;
+			productName = AdMobLibrary;
+			productReference = F5CA9CDA1869A0FD00055DE8 /* libAdMobLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5CA9CE91869A0FD00055DE8 /* AdMobLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CA9D001869A0FE00055DE8 /* Build configuration list for PBXNativeTarget "AdMobLibraryTests" */;
+			buildPhases = (
+				F5CA9CE61869A0FD00055DE8 /* Sources */,
+				F5CA9CE71869A0FD00055DE8 /* Frameworks */,
+				F5CA9CE81869A0FD00055DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CA9CF11869A0FD00055DE8 /* PBXTargetDependency */,
+			);
+			name = AdMobLibraryTests;
+			productName = AdMobLibraryTests;
+			productReference = F5CA9CEA1869A0FD00055DE8 /* AdMobLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CA9CD21869A0FD00055DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jan Damek";
+			};
+			buildConfigurationList = F5CA9CD51869A0FD00055DE8 /* Build configuration list for PBXProject "AdMobLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5CA9CD11869A0FD00055DE8;
+			productRefGroup = F5CA9CDB1869A0FD00055DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CA9CD91869A0FD00055DE8 /* AdMobLibrary */,
+				F5CA9CE91869A0FD00055DE8 /* AdMobLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CA9CE81869A0FD00055DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA9CF81869A0FD00055DE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CA9CD61869A0FD00055DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA9CE51869A0FD00055DE8 /* AdMobLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CA9CE61869A0FD00055DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA9CFA1869A0FD00055DE8 /* AdMobLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CA9CF11869A0FD00055DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CA9CD91869A0FD00055DE8 /* AdMobLibrary */;
+			targetProxy = F5CA9CF01869A0FD00055DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CA9CF61869A0FD00055DE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CA9CF71869A0FD00055DE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CA9CFB1869A0FD00055DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5CA9CFC1869A0FD00055DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CA9CFE1869A0FD00055DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AdMobLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdMobLibrary/AdMobLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5CA9CFF1869A0FD00055DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AdMobLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdMobLibrary/AdMobLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5CA9D011869A0FE00055DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdMobLibrary/AdMobLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AdMobLibraryTests/AdMobLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5CA9D021869A0FE00055DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdMobLibrary/AdMobLibrary-Prefix.pch";
+				INFOPLIST_FILE = "AdMobLibraryTests/AdMobLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CA9CD51869A0FD00055DE8 /* Build configuration list for PBXProject "AdMobLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA9CFB1869A0FD00055DE8 /* Debug */,
+				F5CA9CFC1869A0FD00055DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CA9CFD1869A0FD00055DE8 /* Build configuration list for PBXNativeTarget "AdMobLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA9CFE1869A0FD00055DE8 /* Debug */,
+				F5CA9CFF1869A0FD00055DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CA9D001869A0FE00055DE8 /* Build configuration list for PBXNativeTarget "AdMobLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA9D011869A0FE00055DE8 /* Debug */,
+				F5CA9D021869A0FE00055DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CA9CD21869A0FD00055DE8 /* Project object */;
+}
